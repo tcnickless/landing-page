@@ -2,8 +2,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     height: 100vh;
     margin: 0;
+    font-family: arial;
 }
 
 a {
@@ -19,14 +21,139 @@ ul {
     gap: 16px;
 }
 
-.header {
-    font-size: 18px;
-    justify-content: space-between;
+img {
+    background: grey;
+    width: 200px;
+    height: 200px;
 }
 
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+button {
+    background: #3882f6;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    text-align: center;
+    width: 100px;
+    color: #F9FAF8;
+    font-size: 18px;
+
+}
+
+.header {
+    justify-content: space-between;
+    flex-direction: column;
+
+    font-size: 18px;
+}
+
+.top-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding-bottom: 72px;
+}
 .left-links {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.header-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+}
+
+.left-banner {
+    width: 500px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between ;
+
+    gap: 32px;
+}
+
+.card {
+    width: 200px;
+}
+.card-img {
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+    background: black;
+    width: 100%;
+}
+
+.quote-container {
+    background: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: right;
+}
+
+.quote-box {
+    width: 500px;
+
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+}
+
+.attribution {
+    text-align: right;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #3882f6;
+    margin: 72px;
+    padding: 32px;
+    width: 75%;
+
+    color: #e5e7eb;
+}
+
+.cta-button {
+    border: 2px solid white;
 }
 
 .footer {
